@@ -1,0 +1,105 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif; /* Changed font to Roboto for a modern look */
+    background-color: #f5f5f5; /* Light gray background */
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.login-form {
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 400px; /* Set a fixed width for the form */
+}
+
+.login-form input[type="text"],
+.login-form input[type="password"],
+.login-form input[type="email"],
+.login-form button {
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-sizing: border-box;
+    transition: border-color 0.3s ease-in-out;
+}
+
+.login-form input[type="text"]:focus,
+.login-form input[type="password"]:focus,
+.login-form input[type="email"]:focus {
+    border-color: #3498db; /* Change border color on focus to a blue shade */
+}
+
+.login-form button {
+    background-color: #3498db; /* Blue background color */
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 8px;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.login-form button:hover {
+    background-color: #2980b9; /* Darker blue on hover */
+    transform: scale(1.05);
+}
+
+.login-form p {
+    margin-top: 15px;
+    font-size: 14px;
+    color: #555;
+}
+
+.login-form a {
+    color: #3498db; /* Blue link color */
+    text-decoration: none;
+    transition: color 0.3s ease-in-out;
+}
+
+.login-form a:hover {
+    color: #2980b9; /* Darker blue on hover */
+}
+
+/* Added a subtle gradient effect to the social icons */
+.social-icons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: linear-gradient(to bottom, #ffffff, #f9f9f9);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.social-icons h2 {
+    margin-bottom: 20px;
+    font-size: 18px;
+    color: #555;
+}
+
+.social-icons a {
+    display: inline-block;
+    margin: 10px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #3498db; /* Blue social icon color */
+    color: #fff;
+    text-align: center;
+    line-height: 50px;
+    text-decoration: none;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.social-icons a:hover {
+    background-color: #2980b9; /* Darker blue on hover */
+}
