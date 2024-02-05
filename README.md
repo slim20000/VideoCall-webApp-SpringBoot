@@ -2,6 +2,28 @@
 
 Welcome to the VideoCall Web App, a powerful video call application built with Spring Boot, JavaScript, and ZegoCloud. This application empowers users to seamlessly create and join meetings, fostering collaboration with the added features of in-app chat and screen sharing.
 
+## Screenshots:
+
+**Caption for Screenshot 1**
+
+![Screenshot 1](src/main/resources/static/images/img.png)
+
+**Caption for Screenshot 2**
+
+![Screenshot 2](src/main/resources/static/images/img.png)
+**Caption for Screenshot 2**
+
+![Screenshot 2](src/main/resources/static/images/img.png)
+
+**Caption for Screenshot 2**
+
+![Screenshot 2](src/main/resources/static/images/img.png)
+
+**Caption for Screenshot 2**
+
+![Screenshot 2](src/main/resources/static/images/img.png)
+
+
 ## Features:
 
 ### 1. User Authentication
@@ -39,35 +61,25 @@ Welcome to the VideoCall Web App, a powerful video call application built with S
 
 ## Access the App:
 
-2. Open your web browser and navigate to [http://localhost:8080](http://localhost:8080) to access the VideoCall Web App.
+2. Open your web browser and navigate to [http://localhost:6152](http://localhost:8080) to access the VideoCall Web App.
 
 ## How to Use:
 
 ### Sign Up:
 
-3. Create a new account or log in if you are an existing user.
+1. Create a new account or log in if you are an existing user.
 
 ### Create a Meeting:
 
-4. Use the app interface to create a new meeting.
+2. Use the app interface to create a new meeting.
 
 ### Join a Meeting:
 
-5. Enter the meeting ID to join an existing meeting.
+3. Enter the meeting ID to join an existing meeting.
 
 ### Collaborate:
 
-6. Enjoy high-quality video calls with in-app chat and screen sharing capabilities.
-
-## Screenshots:
-
-**Caption for Screenshot 1**
-
-![Screenshot 1](/images/screenshot1.png)
-
-**Caption for Screenshot 2**
-
-![Screenshot 2](/images/screenshot2.png)
+4. Enjoy high-quality video calls with in-app chat and screen sharing capabilities.
 
 ## Technologies:
 
