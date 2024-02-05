@@ -1,0 +1,86 @@
+/* styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100vh;
+    padding: 20px;
+}
+
+.image-container img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.main {
+    flex-grow: 1;
+    margin-left: 20px;
+}
+
+.new-meeting {
+    text-align: center;
+}
+
+#newMeetingBtn,
+#joinMeetingBtn,
+#logoutBtn {
+    padding: 10px;
+    margin-top: 10px;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#newMeetingBtn:hover,
+#joinMeetingBtn:hover,
+#logoutBtn:hover {
+    background-color: #2980b9;
+}
+
+.join-meeting {
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.join-meeting input {
+    padding: 8px;
+    flex-grow: 1;
+    border: 1px solid #ccc;
+    border-radius: 5px 0 0 5px;
+}
+
+#joinMeetingBtn {
+    border-radius: 0 5px 5px 0;
+}
+
+.connected-users {
+    margin-top: 20px;
+}
+
+#userList {
+    list-style-type: none;
+    padding: 0;
+}
+
+#userList li {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+#userList li:last-child {
+    border-bottom: none;
+}
+
+/* Add styling for your connected users as needed */

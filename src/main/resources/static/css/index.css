@@ -2,7 +2,8 @@ body {
     margin: 0;
     padding: 0;
     font-family: Arial, sans-serif;
-    background-color: #f1f1f1; /* Change the background color of the page */
+    background-color: #121212; /* Dark background color */
+    color: #ffffff; /* Light text color */
 }
 
 .container {
@@ -15,10 +16,10 @@ body {
 .image-container,
 .connected-users,
 .new-meeting {
-    background-color: #ffffff;
-    padding: 20px;
+    background-color: #242424; /* Darker block color */
+    padding: 10px;
     border-radius: 5px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.1); /* Light shadow */
 }
 
 .image-container {
@@ -38,7 +39,8 @@ body {
 
 .connected-users h2 {
     margin-bottom: 20px;
-    font-size: 22px; /* Increase the font size for the title */
+    font-size: 22px;
+    color: #ffffff; /* Light text color */
 }
 
 .connected-users ul {
@@ -53,16 +55,19 @@ body {
     align-items: center;
     margin-bottom: 10px;
     font-size: 25px;
+    color: #ffffff; /* Light text color */
 }
 
 .connected-users li i {
     margin-right: 10px;
     font-size: 25px;
+    color: #ffffff; /* Light text color */
 }
 
 /* Add a bulb icon after each connected user */
 .connected-users li i.fa-lightbulb-o {
     font-size: 25px;
+    color: #ffffff; /* Light text color */
 }
 
 /* Online status - green bulb */
