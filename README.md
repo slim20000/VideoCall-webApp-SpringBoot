@@ -6,7 +6,7 @@ Welcome to the VideoCall Web App, a powerful video call application built with S
 
 **Caption for Screenshot 1**
 
-![Screenshot 1](src/main/resources/static/images/img.png)
+![Screenshot 1](img.png)
 
 **Caption for Screenshot 2**
 
