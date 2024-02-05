@@ -4,24 +4,13 @@ Welcome to the VideoCall Web App, a powerful video call application built with S
 
 ## Screenshots:
 
-**Caption for Screenshot 1**
-
 ![Screenshot 1](img.png)
 
-**Caption for Screenshot 2**
+![Screenshot 2](img_1.png)
 
-![Screenshot 2](src/main/resources/static/images/img.png)
-**Caption for Screenshot 2**
+![Screenshot 3](img_2.png)
 
-![Screenshot 2](src/main/resources/static/images/img.png)
-
-**Caption for Screenshot 2**
-
-![Screenshot 2](src/main/resources/static/images/img.png)
-
-**Caption for Screenshot 2**
-
-![Screenshot 2](src/main/resources/static/images/img.png)
+![Screenshot 4](img_3.png)
 
 
 ## Features:
