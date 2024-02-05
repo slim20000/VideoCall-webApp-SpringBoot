@@ -50,7 +50,7 @@ Welcome to the VideoCall Web App, a powerful video call application built with S
 
 ## Access the App:
 
-2. Open your web browser and navigate to [http://localhost:6152](http://localhost:8080) to access the VideoCall Web App.
+2. Open your web browser and navigate to [http://localhost:6152/register.html](http://localhost:6152/register.html) to access the VideoCall Web App.
 
 ## How to Use:
 
