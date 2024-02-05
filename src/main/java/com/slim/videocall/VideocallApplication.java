@@ -15,29 +15,27 @@ public class VideocallApplication {
     }
     @Bean
     public CommandLineRunner commandLineRunner(
-            UserService userService
+            UserService service
     ) {
         return args -> {
-            userService.register(User.builder()
+            service.register(User.builder()
                     .username("slim")
                     .email("slim@gmail.com")
                     .password("slim")
-                    .build()
-            );
-            userService.register(User.builder()
+                    .build());
+
+            service.register(User.builder()
                     .username("test1")
                     .email("test1@gmail.com")
                     .password("test1")
-                    .build()
-            );
-            userService.register(User.builder()
+                    .build());
+
+            service.register(User.builder()
                     .username("test2")
-                    .email("test2@gmail.com")
+                    .email("test1@gmail.com")
                     .password("test2")
-                    .build()
-            );
+                    .build());
         };
     }
-    }
 
-
+}

@@ -6,9 +6,7 @@ import lombok.extern.slf4j.Slf4j;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
-import java.util.ArrayList;
 import java.util.List;
-import java.util.stream.IntStream;
 
 import static org.springframework.http.HttpStatus.INTERNAL_SERVER_ERROR;
 
@@ -27,12 +25,13 @@ public class UserController {
             userService.register(user);
         }
 
-        @PostMapping("/login")
-        public User login(User user) {
-            return userService.login(user);
-        }
+    @PostMapping("/login")
+    public User login(@RequestBody User user) {
+        return userService.login(user);
+    }
 
-        @PostMapping("/logout")
+
+    @PostMapping("/logout")
         public void logout(String email) {
             userService.logout(email);
         }
